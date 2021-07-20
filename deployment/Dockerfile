@@ -14,8 +14,6 @@ RUN \
     py3-pip \
     && pip install virtualenv
 
-python3-setuptools python3-pip
-
 # install kubectl from AWS
 # https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
 ARG KUBECTL_VERSION="1.19.6"
